@@ -20,10 +20,10 @@ function getAllData(){
 }
 
 /**
- * 何らかのキーが押されたときの処理。result.csvというファイル名でダウンロードする
+ * result.csvというファイル名でsessionStrageに保存したデータをダウンロードする
  *
  */
-function handleKeydown(event){
+function downloadCsv(){
     // utf8
     const bom = '\uFEFF';
 
