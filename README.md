@@ -11,3 +11,11 @@ javascriptでのクローリングはNode.jsを利用したものが検索によ
 4. 対象のURLや、取得するデータ、次のクローリングURLなどを書き換え、保存する
 5. Tampermonkeyが有効になっていることを確認し、クローリングしたいページを開いて、放置
 6. なんらかのキーを押すとresult.csvがダウンロードされる
+
+# サンプルコード neco_video_crawler.js
+googleの動画検索で"猫"を検索したときのデータを100より多くのデータが取れるまで、とり続けるコード。
+
+## 実行方法
+1. Tampermonkey でスクリプトを作成し、[neco_video_crawler.js](/neco_video_crawler.js)からコードをコピーする
+2. https://www.google.co.jp/search?q=%E7%8C%AB&tbm=vid&start=0 にアクセスする
+
