@@ -31,7 +31,7 @@ if(sessionStorage.getItem('size') == null){
     }
 
     if (parseInt(sessionStorage.getItem('size')) > 100){
-        handleKeydown()
+        downloadCsv()
     }else{
         location.href = href[1]+(parseInt(href[2])+video_list.length)
     }
